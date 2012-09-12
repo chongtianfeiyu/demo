@@ -1,0 +1,3 @@
+[ 2012-05-22T10:49:50+08:00 ] SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.041852s ]
+[ 2012-05-22T10:49:50+08:00 ] SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002310s ]
+[ 2012-05-22T10:49:50+08:00 ] SQL: select * from think_user where id = 1 [ RunTime:0.019466s ]

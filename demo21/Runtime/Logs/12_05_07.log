@@ -1,0 +1,77 @@
+[ 2012-05-07T14:39:21+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.002978s ]
+[ 2012-05-07T14:39:21+08:00 ] SQL: INSERT INTO `smf_members` (`member_name`,`real_name`,`passwd`,`email_address`,`validation_code`,`is_activated`,`lngfile`,`member_ip`,`member_ip2`,`date_registered`,`buddy_list`,`message_labels`,`openid_uri`,`signature`,`ignore_boards`,`password_salt`) VALUES ('www3','www3','f4fe11b7cc9da07a12dc0a0f09e4059f6bedf1be','sdfdsf@fd.com','','1','','127.0.0.1','127.0.0.1',1336372761,'','','','','','a4db') [ RunTime:0.006823s ]
+[ 2012-05-07T14:40:04+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.002991s ]
+[ 2012-05-07T14:40:04+08:00 ] SQL: SELECT * FROM `smf_members` WHERE member_name='www3' [ RunTime:0.000544s ]
+[ 2012-05-07T14:40:04+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 20 行.
+[ 2012-05-07T14:52:42+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003565s ]
+[ 2012-05-07T14:52:42+08:00 ] NOTIC: [2] Missing argument 2 for SMFBBS::initupdate(), called in D:\workspace\demo21\demo21\Lib\Action\UserAction.class.php on line 39 and defined SMFBBS.class.php 第 21 行.
+[ 2012-05-07T14:52:42+08:00 ] NOTIC: [2] Missing argument 3 for SMFBBS::initupdate(), called in D:\workspace\demo21\demo21\Lib\Action\UserAction.class.php on line 39 and defined SMFBBS.class.php 第 21 行.
+[ 2012-05-07T14:52:42+08:00 ] NOTIC: [2] Missing argument 4 for SMFBBS::initupdate(), called in D:\workspace\demo21\demo21\Lib\Action\UserAction.class.php on line 39 and defined SMFBBS.class.php 第 21 行.
+[ 2012-05-07T14:52:42+08:00 ] NOTIC: [2] Missing argument 5 for SMFBBS::initupdate(), called in D:\workspace\demo21\demo21\Lib\Action\UserAction.class.php on line 39 and defined SMFBBS.class.php 第 21 行.
+[ 2012-05-07T14:52:42+08:00 ] NOTIC: [8] Undefined variable: pwd SMFBBS.class.php 第 22 行.
+[ 2012-05-07T14:52:42+08:00 ] NOTIC: [8] Undefined variable: uemail SMFBBS.class.php 第 24 行.
+[ 2012-05-07T14:52:42+08:00 ] NOTIC: [8] Undefined variable: uip SMFBBS.class.php 第 24 行.
+[ 2012-05-07T14:52:42+08:00 ] NOTIC: [8] Undefined variable: uip SMFBBS.class.php 第 24 行.
+[ 2012-05-07T14:52:42+08:00 ] NOTIC: [8] Undefined variable: utime SMFBBS.class.php 第 24 行.
+[ 2012-05-07T14:52:42+08:00 ] SQL: UPDATE `smf_members` SET `member_name`='www3',`real_name`='www3',`passwd`='cbc23f43e09a4fe8c45c9b6086689e1c8fd09d06',`email_address`=null,`validation_code`='',`is_activated`='1',`lngfile`='',`member_ip`=null,`member_ip2`=null,`date_registered`=null,`buddy_list`='',`message_labels`='',`openid_uri`='',`signature`='',`ignore_boards`='',`password_salt`='c772' WHERE member_name='www3' [ RunTime:0.000427s ]
+[ 2012-05-07T14:55:43+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003016s ]
+[ 2012-05-07T14:55:43+08:00 ] SQL: INSERT INTO `smf_members` (`member_name`,`real_name`,`passwd`,`email_address`,`validation_code`,`is_activated`,`lngfile`,`member_ip`,`member_ip2`,`date_registered`,`buddy_list`,`message_labels`,`openid_uri`,`signature`,`ignore_boards`,`password_salt`) VALUES ('www4','www4','fc9df0bd1c32f899174433f8a73f227ff96e4fb2','sdfdsf@fd.com','','1','','127.0.0.1','127.0.0.1',1336373743,'','','','','','07a1') [ RunTime:0.000442s ]
+[ 2012-05-07T14:56:52+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003289s ]
+[ 2012-05-07T14:56:52+08:00 ] NOTIC: [8] Undefined variable: password UserAction.class.php 第 39 行.
+[ 2012-05-07T14:56:52+08:00 ] NOTIC: [8] Undefined variable: email UserAction.class.php 第 39 行.
+[ 2012-05-07T14:56:52+08:00 ] NOTIC: [8] Undefined variable: ip UserAction.class.php 第 39 行.
+[ 2012-05-07T14:56:52+08:00 ] NOTIC: [8] Undefined variable: time UserAction.class.php 第 39 行.
+[ 2012-05-07T14:56:52+08:00 ] SQL: UPDATE `smf_members` SET `member_name`='www4',`real_name`='www4',`passwd`='1b50fc8147a3b0cef7716edf24503c1d3ebdf884',`email_address`=null,`validation_code`='',`is_activated`='1',`lngfile`='',`member_ip`=null,`member_ip2`=null,`date_registered`=null,`buddy_list`='',`message_labels`='',`openid_uri`='',`signature`='',`ignore_boards`='',`password_salt`='4832' WHERE member_name='www4' [ RunTime:0.000488s ]
+[ 2012-05-07T14:57:34+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003398s ]
+[ 2012-05-07T14:57:34+08:00 ] SQL: UPDATE `smf_members` SET `member_name`='www4',`real_name`='www4',`passwd`='afa100e7ff0140952ba3922e8d679c5a1163a50f',`email_address`='s121212@fd.com',`validation_code`='',`is_activated`='1',`lngfile`='',`member_ip`='127.0.0.1',`member_ip2`='127.0.0.1',`date_registered`=1336373854,`buddy_list`='',`message_labels`='',`openid_uri`='',`signature`='',`ignore_boards`='',`password_salt`='f111' WHERE member_name='www4' [ RunTime:0.000425s ]
+[ 2012-05-07T15:05:13+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003119s ]
+[ 2012-05-07T15:05:13+08:00 ] SQL: DELETE FROM `smf_members` WHERE member_name='www3' [ RunTime:0.000466s ]
+[ 2012-05-07T15:05:13+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 20 行.
+[ 2012-05-07T15:05:35+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003392s ]
+[ 2012-05-07T15:05:35+08:00 ] SQL: DELETE FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000453s ]
+[ 2012-05-07T15:05:35+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 20 行.
+[ 2012-05-07T15:05:41+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003301s ]
+[ 2012-05-07T15:05:41+08:00 ] SQL: DELETE FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000315s ]
+[ 2012-05-07T15:05:41+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 20 行.
+[ 2012-05-07T15:05:42+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003477s ]
+[ 2012-05-07T15:05:42+08:00 ] SQL: DELETE FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000287s ]
+[ 2012-05-07T15:05:42+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 20 行.
+[ 2012-05-07T15:05:42+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003228s ]
+[ 2012-05-07T15:05:42+08:00 ] SQL: DELETE FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000250s ]
+[ 2012-05-07T15:05:42+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 20 行.
+[ 2012-05-07T15:05:43+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003260s ]
+[ 2012-05-07T15:05:43+08:00 ] SQL: DELETE FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000300s ]
+[ 2012-05-07T15:05:43+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 20 行.
+[ 2012-05-07T15:40:43+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003166s ]
+[ 2012-05-07T15:40:43+08:00 ] SQL: DELETE FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000281s ]
+[ 2012-05-07T15:40:43+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 20 行.
+[ 2012-05-07T16:47:23+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.002984s ]
+[ 2012-05-07T16:47:23+08:00 ] SQL: INSERT INTO `smf_members` (`member_name`,`real_name`,`passwd`,`email_address`,`validation_code`,`is_activated`,`lngfile`,`member_ip`,`member_ip2`,`date_registered`,`buddy_list`,`message_labels`,`openid_uri`,`signature`,`ignore_boards`,`password_salt`) VALUES ('www4','www4','fc9df0bd1c32f899174433f8a73f227ff96e4fb2','sdfdsf@fd.com','','1','','127.0.0.1','127.0.0.1',1336380443,'','','','','','b3c9') [ RunTime:0.000448s ]
+[ 2012-05-07T16:47:41+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003068s ]
+[ 2012-05-07T16:47:41+08:00 ] SQL: INSERT INTO `smf_members` (`member_name`,`real_name`,`passwd`,`email_address`,`validation_code`,`is_activated`,`lngfile`,`member_ip`,`member_ip2`,`date_registered`,`buddy_list`,`message_labels`,`openid_uri`,`signature`,`ignore_boards`,`password_salt`) VALUES ('www1','www1','feccc5d38633413eaec2a9ca28910c91b5340972','sdfdsf@fd.com','','1','','127.0.0.1','127.0.0.1',1336380461,'','','','','','679f') [ RunTime:0.000379s ]
+[ 2012-05-07T16:47:48+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003127s ]
+[ 2012-05-07T16:47:48+08:00 ] SQL: INSERT INTO `smf_members` (`member_name`,`real_name`,`passwd`,`email_address`,`validation_code`,`is_activated`,`lngfile`,`member_ip`,`member_ip2`,`date_registered`,`buddy_list`,`message_labels`,`openid_uri`,`signature`,`ignore_boards`,`password_salt`) VALUES ('www2','www2','53188c71726682e3fa2b7539a886d59b68b7785d','sdfdsf@fd.com','','1','','127.0.0.1','127.0.0.1',1336380468,'','','','','','fb97') [ RunTime:0.000328s ]
+[ 2012-05-07T16:47:55+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003232s ]
+[ 2012-05-07T16:47:55+08:00 ] SQL: INSERT INTO `smf_members` (`member_name`,`real_name`,`passwd`,`email_address`,`validation_code`,`is_activated`,`lngfile`,`member_ip`,`member_ip2`,`date_registered`,`buddy_list`,`message_labels`,`openid_uri`,`signature`,`ignore_boards`,`password_salt`) VALUES ('www3','www3','f4fe11b7cc9da07a12dc0a0f09e4059f6bedf1be','sdfdsf@fd.com','','1','','127.0.0.1','127.0.0.1',1336380475,'','','','','','2a25') [ RunTime:0.000305s ]
+[ 2012-05-07T16:48:02+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003175s ]
+[ 2012-05-07T16:48:02+08:00 ] SQL: INSERT INTO `smf_members` (`member_name`,`real_name`,`passwd`,`email_address`,`validation_code`,`is_activated`,`lngfile`,`member_ip`,`member_ip2`,`date_registered`,`buddy_list`,`message_labels`,`openid_uri`,`signature`,`ignore_boards`,`password_salt`) VALUES ('www5','www5','a9cae9c31b5ba4bb87577c51487a26171329fe32','sdfdsf@fd.com','','1','','127.0.0.1','127.0.0.1',1336380482,'','','','','','5804') [ RunTime:0.000390s ]
+[ 2012-05-07T16:48:29+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003862s ]
+[ 2012-05-07T16:48:29+08:00 ] SQL: DELETE FROM `smf_members` WHERE member_name='www5' [ RunTime:0.000354s ]
+[ 2012-05-07T16:48:29+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 20 行.
+[ 2012-05-07T16:48:55+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003258s ]
+[ 2012-05-07T16:48:55+08:00 ] SQL: UPDATE `smf_members` SET `member_name`='www4',`real_name`='www4',`passwd`='afa100e7ff0140952ba3922e8d679c5a1163a50f',`email_address`='s121212@fd.com',`validation_code`='',`is_activated`='1',`lngfile`='',`member_ip`='127.0.0.1',`member_ip2`='127.0.0.1',`date_registered`=1336380535,`buddy_list`='',`message_labels`='',`openid_uri`='',`signature`='',`ignore_boards`='',`password_salt`='d7fc' WHERE member_name='www4' [ RunTime:0.000375s ]
+[ 2012-05-07T16:49:11+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003100s ]
+[ 2012-05-07T16:49:11+08:00 ] SQL: SELECT * FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000532s ]
+[ 2012-05-07T16:49:11+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 35 行.
+[ 2012-05-07T17:27:36+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003644s ]
+[ 2012-05-07T17:27:36+08:00 ] SQL: SELECT * FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000357s ]
+[ 2012-05-07T17:27:36+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 35 行.
+[ 2012-05-07T17:27:36+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003035s ]
+[ 2012-05-07T17:27:36+08:00 ] SQL: SELECT * FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000302s ]
+[ 2012-05-07T17:27:36+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 35 行.
+[ 2012-05-07T17:27:36+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003056s ]
+[ 2012-05-07T17:27:36+08:00 ] SQL: SELECT * FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000295s ]
+[ 2012-05-07T17:27:36+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 35 行.
+[ 2012-05-07T17:27:37+08:00 ] SQL: SHOW COLUMNS FROM `smf_members` [ RunTime:0.003131s ]
+[ 2012-05-07T17:27:37+08:00 ] SQL: SELECT * FROM `smf_members` WHERE member_name='www4' [ RunTime:0.000319s ]
+[ 2012-05-07T17:27:37+08:00 ] NOTIC: [8] Use of undefined constant id_member - assumed 'id_member' UserAction.class.php 第 35 行.
