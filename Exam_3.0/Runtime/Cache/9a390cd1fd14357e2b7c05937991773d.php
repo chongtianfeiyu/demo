@@ -1,0 +1,5 @@
+<?php if (!defined('THINK_PATH')) exit();?><script type="text/javascript">$(function(){
+	// Accordion
+	$("#accordion-1").accordion({ header: "h3",autoHeight: false});
+});
+</script><div id="accordion-1"><?php if(is_array($list)): $k = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><div ><h3><a href="#"><?php echo ($vo["label"]); ?></a></h3><ul class='pages'><?php if(is_array($vo['sub'])): $i = 0; $__LIST__ = $vo['sub'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$sub): $mod = ($i % 2 );++$i;?><li title="进入第<?php echo ($sub["pageid"]); ?>页" onclick="gettiku('1<?php echo ($k); ?>',<?php echo ($sub["pageid"]); ?>);"><?php echo ($sub["pageid"]); ?></li><?php endforeach; endif; else: echo "" ;endif; ?></ul></div ><?php endforeach; endif; else: echo "" ;endif; ?></div><div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;"><p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>			本栏按题型分类，不区分是否有做过及是否有标记，和具体用户无关！</p></div></div>

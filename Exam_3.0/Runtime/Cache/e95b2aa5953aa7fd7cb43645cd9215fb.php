@@ -1,0 +1,5 @@
+<?php if (!defined('THINK_PATH')) exit();?><script type="text/javascript">$(function(){
+	// Accordion
+	$("#accordion-2").accordion({ header: "h3",autoHeight: false});
+});
+</script><!-- accordion-2 --><div id="accordion-2"><div><h3><a href="#">保留题目</a></h3><ul class='pages'><?php if(is_array($list1)): $i = 0; $__LIST__ = $list1;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li title="进入第<?php echo ($i); ?>页" onclick="gettiku('21',<?php echo ($vo["pageid"]); ?>);"><?php echo ($vo["pageid"]); ?></li><?php endforeach; endif; else: echo "" ;endif; ?></ul></div><div><h3><a href="#">冷宫题目</a></h3><ul class='pages'><?php if(is_array($list2)): $i = 0; $__LIST__ = $list2;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li title="进入第<?php echo ($i); ?>页" onclick="gettiku('22',<?php echo ($vo["pageid"]); ?>);"><?php echo ($vo["pageid"]); ?></li><?php endforeach; endif; else: echo "" ;endif; ?></ul></div></div>

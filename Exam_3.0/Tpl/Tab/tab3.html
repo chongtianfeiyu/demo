@@ -1,0 +1,18 @@
+<script type="text/javascript">
+$(function(){
+	// Accordion
+	$("#accordion-3").accordion({ header: "h3",autoHeight: false});
+});
+</script>
+
+<!-- accordion-3 -->
+<div id="accordion-3">
+	<div>
+		<h3><a href="#">未做过的题目</a></h3>
+		  <ul class='pages'>
+			<volist name="list" id="vo">
+				<li title="进入第{$i}页" onclick="gettiku('31',{$vo.pageid});">{$vo.pageid}</li>  
+			</volist>
+		  </ul>
+	</div>
+</div> 

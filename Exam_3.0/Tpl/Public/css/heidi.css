@@ -1,0 +1,118 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 5px;
+}
+
+  ul#icons {margin: 0; padding: 0;}
+  ul#icons li {margin: 3px; position: relative; padding: 4px ; cursor: pointer; float: left;  list-style: none; width:32px;height:32px;font-size: 14px;font-weight: bolder;color: #666;text-align:center;vertical-align:middle;}
+  ul#icons li:hover {background-color:#F90;color: #fff;}
+
+  ul.pages {margin: 0; padding: 0;}
+  ul.pages li {margin: 2px; position: relative; padding: 2px ; cursor: pointer; float: left;  list-style: none; width:22px;height:22px;font-size: 12px;color: #459E00;text-align:center;vertical-align:middle; }
+  ul.pages li:hover {background-color:#459E00;color: #fff;}
+
+  .blue{color:#459E00;font-weight: bolder;}
+  
+#tabs {
+	height: 500px;
+	width: 23%;
+	display: block;
+	float: left;
+}
+
+#right {
+	width: 75%;
+	display: block;
+	float: right;
+	padding:0px;
+}
+
+#otherinfo {
+	width: 200px;
+	float: right;
+	z-index:999;
+	padding:10px;
+	color:#666;
+
+}
+
+#right_top{
+	width: 98%;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	height:280px;
+	display:none;
+}
+
+#foot_list {
+	width: 98%;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	height:180px;
+	display:none;
+}
+
+#right_answer {
+	width: 98%;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	display:none;
+}
+
+#question {
+	width: 100%;
+	padding: 5px;
+	margin: 5px;
+	height:30px;
+}
+#questioninfo {
+	width: 100%;
+	padding: 5px;
+	margin: 5px;
+}
+.mytips {
+	
+	float:left;
+	position:absolute;
+	bottom:0px;
+}
+.answer {
+	width: 100%;
+	padding: 5px;
+	position:absolute;
+	bottom:0px;
+}
+.tool {
+	margin-left:200px;
+}
+.an_yes {
+	background-color:#0CC;
+	background-image:none;
+}
+.an_no {
+	background-color:#F90;
+	background-image:none;
+}
+.selli {
+	background-color:#459E00;
+	color:#fff;
+}
+#sys_answer,#your_answer,#d_num{
+	color:red;
+}
+.ui-accordion .ui-accordion-content{
+	padding:4px;
+	text-align:center;
+}
+

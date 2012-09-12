@@ -1,0 +1,26 @@
+<script type="text/javascript">
+$(function(){
+	// Accordion
+	$("#accordion-2").accordion({ header: "h3",autoHeight: false});
+});
+</script>
+
+<!-- accordion-2 -->
+<div id="accordion-2">
+	<div>
+		<h3><a href="#">保留题目</a></h3>
+		  <ul class='pages'>
+			<volist name="list1" id="vo">
+				<li title="进入第{$i}页" onclick="gettiku('21',{$vo.pageid});">{$vo.pageid}</li>  
+			</volist>
+		  </ul>
+	</div>
+	<div>
+		<h3><a href="#">冷宫题目</a></h3>
+		  <ul class='pages'>
+			<volist name="list2" id="vo">
+				<li title="进入第{$i}页" onclick="gettiku('22',{$vo.pageid});">{$vo.pageid}</li>  
+			</volist>
+		   </ul>
+	</div>
+</div>  

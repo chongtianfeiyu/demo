@@ -1,0 +1,29 @@
+<script type="text/javascript">
+$(function(){
+	// Accordion
+	$("#accordion-1").accordion({ header: "h3",autoHeight: false});
+});
+</script>
+
+<div id="accordion-1">
+
+<volist name="list" id="vo" key="k" >
+  <div >
+	  <h3><a href="#">{$vo.label}</a></h3>
+	  <ul class='pages'>
+		<volist name="vo['sub']" id="sub" >
+			<li title="进入第{$sub.pageid}页" onclick="gettiku('1{$k}',{$sub.pageid});">{$sub.pageid}</li>  
+		</volist>
+	  </ul>
+  </div >
+</volist>
+
+</div>
+
+<div class="ui-widget">
+	<div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;"> 
+		<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+			本栏按题型分类，不区分是否有做过及是否有标记，和具体用户无关！</p>
+	</div>
+</div>
+
