@@ -9,7 +9,7 @@ class IndexAction extends Action
     */
     public function index() {
      /*   // $this->display(THINK_PATH.'/Tpl/Autoindex/hello.html');
-      $myConnect1 = 'mysql://sfs:d3v@localhost:3306/test1'; 
+      $myConnect1 = 'mysql://root:123123@localhost:3306/test1'; 
        $User->addConnect($myConnect1,1);
        $User->switchConnect(1, 'user'); 
        echo $User->getLastSql();
